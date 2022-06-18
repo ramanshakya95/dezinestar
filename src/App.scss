@@ -1,44 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
-@import "./Var.scss";
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Mulish";
-}
-p {
-  margin: 0px;
-}
-@keyframes topbottom {
-  0%,
-  100% {
-    transform: translateY(0px);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  50% {
-    transform: translateY(-15px);
+  body {
+    font-family: "Mulish";
   }
-}
-@keyframes scale {
-  0%,
-  100% {
-    transform: scale(0.96);
-    -webkit-transform: scale(0.96);
+  p{
+    margin: 0px;
   }
-  50% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-  }
-}
-// button component styling start
-button.second_button {
-  @include second-button;
-  img {
-    padding-left: 17px;
-  }
-  &:hover {
-    background: $text-000;
-  }
-}
-// button component styling end
